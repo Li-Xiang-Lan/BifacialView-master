@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/simple_screen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onClick"
+        android:text="Simple" />
+
+    <Button
+        android:id="@+id/vp_screen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onClick"
+        android:text="ViewPager" />
+
+    <Button
+        android:id="@+id/rv_screen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onClick"
+        android:text="RecyclerView" />
+
+    <Button
+        android:id="@+id/custom_screen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onClick"
+        android:text="RecyclerView in VP" />
+
+</LinearLayout>
